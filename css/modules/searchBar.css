@@ -1,6 +1,7 @@
 .searchBar {
     display: flex;
     height: 3.0625rem;
+    margin: 2.19rem 0;
 }
 
 .searchbar__icon {

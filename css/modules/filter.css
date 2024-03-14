@@ -1,0 +1,18 @@
+.filter {
+    display: flex;
+    align-items: baseline;
+    gap: 0.94rem;
+    flex-wrap: wrap;
+}
+
+.filter__btn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.94rem;
+}
+
+.filter__btn a {
+    border: 2px solid var(--main-gray);
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+}

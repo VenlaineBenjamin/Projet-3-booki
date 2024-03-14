@@ -47,3 +47,9 @@ button {
 input:focus::placeholder {
     color: transparent;
 }
+
+li {
+    list-style: none;
+    list-style-type: none;
+    margin: 0;
+}
