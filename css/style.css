@@ -1,5 +1,6 @@
 /* modules */
 @import "modules/navbar.css";
+@import "modules/searchBar.css";
 
 /****** General ***********/
 body {
