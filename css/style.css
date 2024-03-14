@@ -1,6 +1,43 @@
+/* modules */
+@import "modules/navbar.css";
+
 /****** General ***********/
-* {
+body {
     font-family: "Raleway", sans-serif;
+}
+
+h1 {
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h2 {
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+strong {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+a,
+p {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-wrap: pretty;
+}
+
+main {
+    padding: 0 3.15rem;
 }
 
 /* design system */

@@ -37,6 +37,8 @@ a {
     color: black;
 }
 
-p {
-    text-wrap: pretty;
+button {
+    border: none;
+    background-color: white;
+    cursor: pointer;
 }
