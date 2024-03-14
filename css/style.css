@@ -4,15 +4,10 @@
 /****** General ***********/
 body {
     font-family: "Raleway", sans-serif;
+    background-color: var(--main-bg-color);
 }
 
-h1 {
-    font-size: 1.375rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-}
-
+h1,
 h2 {
     font-size: 1.375rem;
     font-style: normal;
@@ -33,7 +28,6 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-wrap: pretty;
 }
 
 main {
@@ -45,8 +39,15 @@ main {
     --main-color: #0065fc;
     --main-bg-color: #f2f2f2;
     --filter-bg-color: #deebff;
+    --main-gray: #d9d9d9;
 }
 
 .fa-solid {
     color: var(--main-color);
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        padding: 0 1rem;
+    }
 }
