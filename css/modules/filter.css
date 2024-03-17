@@ -3,6 +3,7 @@
     align-items: baseline;
     gap: 0.94rem;
     flex-wrap: wrap;
+    margin-bottom: 2.19rem;
 }
 
 .filter__btn {
@@ -13,6 +14,23 @@
 
 .filter__btn a {
     border: 2px solid var(--main-gray);
+    font-weight: 700;
     border-radius: 2rem;
     padding: 1rem 2rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    &:hover {
+        background-color: var(--filter-bg-color);
+    }
+}
+
+.filter__btn a i {
+    margin-right: 0.62rem;
+    font-size: 1.375rem;
+}
+
+@media screen and (max-width: 500px) {
+    .filter__btn a {
+        padding: 1rem 1rem;
+    }
 }

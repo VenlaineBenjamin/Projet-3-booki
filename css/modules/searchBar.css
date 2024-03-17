@@ -24,6 +24,7 @@
     display: none;
     border-radius: 1rem;
     box-shadow: 0px 7px 5px 0px var(--main-gray);
+    transition: all 0.2s;
 }
 
 .searchBar__btn__i:hover {
@@ -47,6 +48,7 @@
     background-color: var(--main-color);
     border-top-right-radius: 1rem;
     border-bottom-right-radius: 1rem;
+    transition: all 0.2s;
 }
 
 .searchBar__btn:hover {

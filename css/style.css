@@ -2,6 +2,7 @@
 @import "modules/navbar.css";
 @import "modules/searchBar.css";
 @import "modules/filter.css";
+@import "modules/hebergements.css";
 
 /****** General ***********/
 body {
@@ -34,6 +35,17 @@ p {
 
 main {
     padding: 0 3.15rem;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.19rem;
+}
+
+.info i {
+    margin-right: 0.62rem;
+    border-radius: 50%;
 }
 
 /* design system */

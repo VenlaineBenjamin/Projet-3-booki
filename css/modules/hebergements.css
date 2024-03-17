@@ -1,0 +1,93 @@
+.hebergements {
+    display: flex;
+    gap: 2.5rem;
+}
+
+.hebergements__marseille {
+    padding: 1.88rem;
+    border-radius: 2rem;
+    background-color: var(--main-gray);
+    display: flex;
+    flex-direction: column;
+    gap: 1.88rem;
+    flex-basis: 70%;
+}
+
+.hebergements__marseille__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1.88rem;
+    /* padding: 0.31rem; */
+}
+
+.hebergements__marseille__cards__carte {
+    background-color: var(--main-bg-color);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hebergements__marsaille__cards__carte__img {
+    border-radius: 1rem 1rem 0 0;
+    height: 10rem;
+    margin: 0.31rem;
+
+    &.photo1 {
+        background-image: url("/images/hebergements/fred-kleber.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &.photo2 {
+        background-image: url("/images/hebergements/febrian-zakaria.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &.photo3 {
+        background-image: url("/images/hebergements/reisetopia.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &.photo4 {
+        background-image: url("/images/hebergements/reisetopia.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &.photo5 {
+        background-image: url("/images/hebergements/marcus-loke.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &.photo6 {
+        background-image: url("/images/hebergements/nicate-lee.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.hebergements__marsaille__cards__carte__info {
+    padding: 0.94rem;
+}
+
+.herbergement__populaire {
+    flex-basis: 30%;
+    padding: 1.88rem;
+    border-radius: 2rem;
+    background-color: var(--main-gray);
+}
+
+.herbergement__populaire__cards {
+    background-color: var(--main-bg-color);
+}
