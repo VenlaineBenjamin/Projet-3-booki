@@ -3,6 +3,8 @@
 @import "modules/searchBar.css";
 @import "modules/filter.css";
 @import "modules/hebergements.css";
+@import "modules/activites.css";
+@import "modules/footer.css";
 
 /****** General ***********/
 body {
@@ -52,7 +54,7 @@ main {
     --main-color: #0065fc;
     --main-bg-color: #f2f2f2;
     --filter-bg-color: #deebff;
-    --main-gray: #d9d9d9;
+    --main-gray: #e7e7e7;
 }
 
 .fa-solid {
