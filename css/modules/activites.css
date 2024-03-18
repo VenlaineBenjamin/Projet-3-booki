@@ -1,6 +1,8 @@
 .activites {
     padding: 2.19rem;
     margin-bottom: 2.19rem;
+    margin-left: 3.12rem;
+    margin-right: 3.12rem;
 }
 
 .activites h2 {
@@ -69,6 +71,8 @@
 @media screen and (max-width: 500px) {
     .activites {
         padding: 0 1.88rem;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .activites__cards {

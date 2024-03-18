@@ -28,8 +28,8 @@ h2,
 h3,
 h5,
 h6 {
-    text-wrap: balance;
     padding: 0;
+    margin: 0;
 }
 
 a {
