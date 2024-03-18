@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 500px) {
     .activites {
-        padding: 1rem;
+        padding: 0 1.88rem;
     }
 
     .activites__cards {
