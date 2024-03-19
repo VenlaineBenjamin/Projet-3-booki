@@ -151,7 +151,6 @@
     .hebergements {
         flex-direction: column;
         margin: 1rem;
-        gap: 0;
     }
 
     .herbergement__populaire__cards {
