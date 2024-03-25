@@ -27,40 +27,9 @@
 .activites__cards__carte__img {
     flex-basis: 90%;
     border-radius: 1.25rem 1.25rem 0 0;
-<<<<<<< HEAD
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-=======
-
-    &.photo10 {
-        background-image: url("/Verlaine_benjamin_3_Créez la page d'accueil d'une agence de voyage avec HTML & CSS_032024/booki-starter-code-master/images/activites/reno-laithienne.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    &.photo11 {
-        background-image: url("/Verlaine_benjamin_3_Créez la page d'accueil d'une agence de voyage avec HTML & CSS_032024/booki-starter-code-master/images/activites/paul-hermann.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    &.photo12 {
-        background-image: url("/Verlaine_benjamin_3_Créez la page d'accueil d'une agence de voyage avec HTML & CSS_032024/booki-starter-code-master/images/activites/kilyan-sockalingum.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
-
-    &.photo13 {
-        background-image: url("/Verlaine_benjamin_3_Créez la page d'accueil d'une agence de voyage avec HTML & CSS_032024/booki-starter-code-master/images/activites/florian-wehde.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-    }
->>>>>>> e9e60985c30bdfb37cb2563e3cfb95d8e2623953
 }
 
 .activites__cards__carte strong {
