@@ -34,7 +34,7 @@
     height: 8.2rem;
     width: 100%;
     padding: 0.35rem;
-    border-radius: 1rem 1rem 0 0;
+    border-radius: 1.25rem 1.25rem 0 0;
     object-fit: cover;
 }
 
@@ -66,7 +66,7 @@
 .herbergement__populaire__cards__carte {
     background-color: var(--main-bg-color);
     display: flex;
-    border-radius: 1rem;
+    border-radius: 1.25rem;
     cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -83,7 +83,7 @@
     height: 9.1rem;
     width: 7.6rem;
     padding: 0.35rem;
-    border-radius: 1rem 0 0 1rem;
+    border-radius: 1.25rem 0 0 1.25rem;
     object-fit: cover;
 }
 
@@ -97,8 +97,9 @@
         flex-direction: row;
     }
 
-    .hebergemeent__populaire__cards__carte__img {
+    .hebergemeent__populaire__cards__carte__photo {
         width: 6.9rem;
+        height: auto;
     }
 }
 
