@@ -18,7 +18,7 @@
     border-radius: 2rem;
     padding: 1rem 2rem;
     cursor: pointer;
-    transition: all 0.2s;
+    transition: background-color 0.2s;
 }
 
 .filter__btn a:hover {
