@@ -61,7 +61,7 @@ p {
     color: var(--main-color);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .gouttiere {
         padding: 0 1rem;
     }

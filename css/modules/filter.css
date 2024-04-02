@@ -30,7 +30,7 @@
     font-size: 1.375rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .filter__btn {
         display: grid;
         grid-template-columns: 1fr 1fr;

@@ -37,7 +37,7 @@
     padding: 1.25rem 1.19rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
     .activites__cards__carte {
         height: 16.9rem;
     }
@@ -47,7 +47,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .activites {
         padding: 0 1.88rem;
         margin-left: 0;

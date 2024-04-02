@@ -80,14 +80,13 @@
 }
 
 .herbergement__populaire__cards__carte__photo {
-    height: 9.1rem;
     width: 7.6rem;
     padding: 0.35rem;
     border-radius: 1.25rem 0 0 1.25rem;
     object-fit: cover;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1024px) {
     .hebergements {
         flex-direction: column;
         margin: 1rem;
@@ -103,7 +102,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
     .hebergements {
         flex-direction: column-reverse;
         margin: 0;
