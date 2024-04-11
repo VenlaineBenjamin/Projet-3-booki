@@ -1,6 +1,6 @@
 .footer {
     padding: 1.25rem;
-    margin: 0 3.15rem;
+    /* margin: 0 3.15rem; */
     background-color: var(--main-gray);
     display: flex;
 }

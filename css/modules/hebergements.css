@@ -1,7 +1,6 @@
 .hebergements {
     display: flex;
     gap: 2.5rem;
-    margin: 0 3.15rem;
 }
 
 .hebergements__marseille {
@@ -27,7 +26,7 @@
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: var(--box-shadow);
 }
 
 .hebergements__marseille__cards__carte__photo {
@@ -68,7 +67,8 @@
     display: flex;
     border-radius: 1.25rem;
     cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: var(--box-shadow);
+    height: 9.13rem;
 }
 
 .herbergement__populaire__cards__carte__info {
@@ -103,6 +103,10 @@
 }
 
 @media screen and (max-width: 768px) {
+    .gouttiere {
+        padding: 0 !important;
+    }
+
     .hebergements {
         flex-direction: column-reverse;
         margin: 0;

@@ -37,6 +37,7 @@
     border: 1px solid var(--main-gray);
     padding: 0 1rem;
     background-color: var(--main-bg-color);
+    width: 18rem;
 }
 
 .searchBar__input::placeholder {
@@ -61,9 +62,13 @@
 }
 
 @media screen and (max-width: 768px) {
+    .header-info {
+        padding: 0 1rem;
+    }
+
     .searchBar {
         justify-content: center;
-        transform: scale(1.09);
+        /* transform: scale(1.09); */
     }
 
     .searchBar__btn__i {

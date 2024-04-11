@@ -39,10 +39,14 @@ p {
     padding: 0 3.15rem;
 }
 
-.info {
+.star--gray .info {
     display: flex;
     align-items: center;
     margin-bottom: 2.19rem;
+}
+
+.hebergements .star--gray {
+    color: var(--main-gray);
 }
 
 .info img {
@@ -55,14 +59,21 @@ p {
     --main-bg-color: #f2f2f2;
     --filter-bg-color: #deebff;
     --main-gray: #e7e7e7;
+    --box-shadow: 0px 3px 15px 0px #0000001a;
 }
 
 .fa-solid {
     color: var(--main-color);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 1440px) {
     .gouttiere {
-        padding: 0 1rem;
+        padding: 0 14.3rem;
     }
+}
+
+@media screen and (max-width: 768px) {
+    /* .gouttiere {
+        padding: 0 1rem;
+    } */
 }
