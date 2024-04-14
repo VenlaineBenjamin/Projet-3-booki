@@ -68,13 +68,19 @@
 
     .searchBar {
         justify-content: center;
-        /* transform: scale(1.09); */
+        /* width: 100%;
+        margin: 0 1.25rem; */
+    }
+
+    .searchbar__icon {
+        margin-left: 1.25rem;
     }
 
     .searchBar__btn__i {
         display: block;
         background-color: var(--main-color);
         padding: 0 1rem;
+        margin-right: 1rem;
     }
 
     .searchBar__btn__i i {
