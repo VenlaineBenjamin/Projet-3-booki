@@ -25,6 +25,7 @@
     border-radius: 1.25rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     cursor: pointer;
     box-shadow: var(--box-shadow);
 }
@@ -39,6 +40,9 @@
 
 .hebergements__marsaille__cards__carte__info {
     padding: 0.94rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .herbergement__populaire {
@@ -68,7 +72,7 @@
     border-radius: 1.25rem;
     cursor: pointer;
     box-shadow: var(--box-shadow);
-    height: 9.13rem;
+    min-height: 9.13rem;
 }
 
 .herbergement__populaire__cards__carte__info {
@@ -86,14 +90,18 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 950px) {
     .hebergements {
         flex-direction: column;
-        margin: 1rem;
+        /* margin: 1rem; */
     }
 
     .herbergement__populaire__cards {
         flex-direction: row;
+    }
+
+    .herbergement__populaire__cards__carte {
+        flex-basis: 33.3%;
     }
 
     .hebergemeent__populaire__cards__carte__photo {
@@ -102,7 +110,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     .gouttiere {
         padding: 0 !important;
     }
@@ -123,6 +131,14 @@
     .herbergement__populaire__cards {
         flex-direction: column;
     }
+
+    .herbergement__populaire__cards__carte {
+        min-height: 9.13rem;
+    }
+
+    /* .herbergement__populaire__cards__carte__info {
+        justify-content: center;
+    } */
 
     .hebergemeent__populaire__cards__carte__photo {
         width: 5.7rem;

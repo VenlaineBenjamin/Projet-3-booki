@@ -72,8 +72,8 @@ p {
     }
 }
 
-@media screen and (max-width: 768px) {
-    /* .gouttiere {
-        padding: 0 1rem;
-    } */
+@media screen and (max-width: 480px) {
+    p {
+        font-size: 0.7rem;
+    }
 }

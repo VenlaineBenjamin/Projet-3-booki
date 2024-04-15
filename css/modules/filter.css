@@ -46,7 +46,7 @@
     border-radius: 999999px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
     .info {
         padding: 0 1rem;
     }
@@ -66,5 +66,8 @@
         padding: 1rem 1.5rem;
         display: flex;
         justify-content: center;
+        align-content: center;
+        gap: 1rem;
+        font-size: 0.875rem;
     }
 }
