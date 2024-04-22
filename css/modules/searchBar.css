@@ -1,8 +1,8 @@
 .searchBar {
     display: flex;
+    justify-content: flex-start;
     height: 3.0625rem;
     margin: 2.19rem 0;
-    max-width: 1440px;
     margin: 0 auto;
     margin-top: 2.19rem;
     margin-bottom: 2.19rem;
@@ -65,15 +65,15 @@
     color: white;
 }
 
+@media screen and (min-width: 1440px) {
+    .searchBar {
+        max-width: 1440px;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .header-info {
         padding: 0 1rem;
-    }
-
-    .searchBar {
-        justify-content: center;
-        /* width: 100%;
-        margin: 0 1.25rem; */
     }
 
     .searchbar__icon {

@@ -4,7 +4,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -32,10 +31,11 @@
     color: var(--main-color);
 }
 
-/* @media screen and (min-width: 1440px) {
-    .gouttiere {
+@media screen and (min-width: 1440px) {
+    .navbar {
+        max-width: 1440px;
     }
-} */
+}
 
 @media screen and (max-width: 768px) {
     .navbar {

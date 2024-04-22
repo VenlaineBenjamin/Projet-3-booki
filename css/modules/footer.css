@@ -3,7 +3,6 @@
     /* margin: 0 3.15rem; */
     background-color: var(--main-gray);
     display: flex;
-    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -22,6 +21,12 @@
     text-decoration: underline;
     text-underline-offset: 0.5rem;
     color: var(--main-color);
+}
+
+@media screen and (min-width: 1440px) {
+    .footer {
+        max-width: 1440px;
+    }
 }
 
 @media screen and (max-width: 768px) {

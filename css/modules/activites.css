@@ -1,7 +1,6 @@
 .activites {
     padding: 2.19rem 0;
     margin-bottom: 2.19rem;
-    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -35,6 +34,12 @@
 .activites__cards__carte strong {
     flex-basis: 10%;
     padding: 1.25rem 1.19rem;
+}
+
+@media screen and (min-width: 1440px) {
+    .activites {
+        max-width: 1440px;
+    }
 }
 
 @media screen and (max-width: 1024px) {

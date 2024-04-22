@@ -4,7 +4,6 @@
     gap: 0.94rem;
     flex-wrap: wrap;
     margin-bottom: 2.19rem;
-    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -48,6 +47,12 @@
     border-radius: 999999px;
 }
 
+@media screen and (min-width: 1440px) {
+    .filter {
+        max-width: 1440px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .info {
         padding: 0 1rem;
@@ -67,8 +72,6 @@
     .filter__btn a {
         padding: 1rem 1.5rem;
         display: flex;
-        justify-content: center;
-        align-content: center;
         gap: 1rem;
         font-size: 0.875rem;
     }

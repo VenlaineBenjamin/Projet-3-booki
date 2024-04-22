@@ -64,6 +64,7 @@ p {
     display: block;
     max-width: 1440px;
     margin: 0 auto;
+    margin-top: 1.88rem;
 }
 
 /* design system */
@@ -80,8 +81,12 @@ p {
 }
 
 @media screen and (min-width: 1440px) {
-    .gouttiere {
-        padding: 0 14.3rem;
+    .info {
+        max-width: 1440px;
+    }
+
+    .header-info {
+        max-width: 1440px;
     }
 }
 
