@@ -1,6 +1,6 @@
 .filter {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     gap: 0.94rem;
     flex-wrap: wrap;
     margin-bottom: 2.19rem;
@@ -9,6 +9,7 @@
 
 .filter__btn {
     display: flex;
+    align-items: center;
     flex-wrap: wrap;
     gap: 0.94rem;
 }
@@ -70,7 +71,7 @@
     }
 
     .filter__btn a {
-        padding: 1rem 1.5rem;
+        padding: 1.5rem 1rem;
         display: flex;
         gap: 1rem;
         font-size: 0.875rem;
