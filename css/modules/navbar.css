@@ -4,6 +4,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .navbar img {
@@ -35,7 +37,7 @@
     }
 } */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .navbar {
         flex-direction: column;
         margin-top: 1.88rem;

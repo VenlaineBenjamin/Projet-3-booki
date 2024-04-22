@@ -1,6 +1,8 @@
 .hebergements {
     display: flex;
     gap: 2.5rem;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .hebergements__marseille {
@@ -90,10 +92,9 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1024px) {
     .hebergements {
         flex-direction: column;
-        /* margin: 1rem; */
     }
 
     .herbergement__populaire__cards {
@@ -110,7 +111,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .gouttiere {
         padding: 0 !important;
     }

@@ -49,8 +49,21 @@ p {
     color: var(--main-gray);
 }
 
+.info {
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .info img {
     margin-right: 0.62rem;
+}
+
+.header-info {
+    display: block;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /* design system */
@@ -72,7 +85,7 @@ p {
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     p {
         font-size: 0.7rem;
     }
